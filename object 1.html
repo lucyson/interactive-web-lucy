@@ -1,0 +1,611 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>OBJECT 1</title>
+		<style>
+			
+			html, body {
+				margin:0;
+			}
+
+			.toprec{
+				background:black;
+				width:30px;
+				height:60px;
+				position:absolute;
+				top:100px;
+				left:400px;
+				border-radius: 5px;
+			}
+
+			.toprec1{
+				background:white;
+				width: 25px;
+				height: 55px;
+				position: absolute;
+				top: 102px;
+				left: 402px;
+				border-radius: 5px;
+			}
+
+			.toprec2{
+				background:black;
+				width: 25px;
+				height: 55px;
+				position: absolute;
+				top: 103px;
+				left: 403px;
+				border-radius: 5px;
+			}
+
+
+			.topcenterbar1{
+				background:black;
+				width: 10px;
+				height: 40px;
+				position: absolute;
+				top: 150px;
+				left: 410px;
+
+			}
+
+			.topcircle1{
+				background:black;
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 175px;
+				left: 365px;
+				border-radius: 250px;
+			}
+
+			.topcirclewhite{
+				background:white;
+				width: 93px;
+				height: 93px;
+				position: absolute;
+				top: 178px;
+				left: 368px;
+				border-radius: 250px;
+			}
+
+			.topcircleblack{
+				background:black;
+				width: 89px;
+				height: 89px;
+				position: absolute;
+				top: 178px;
+				left: 368px;
+				border-radius: 250px;
+			}
+
+			.topcircle2{
+				background:white;
+				width: 80px;
+				height: 80px;
+				position: absolute;
+				top: 185px;
+				left: 375px;
+				border-radius: 250px;
+			}
+
+			.topcenterbar2{
+				background:black;
+				width: 10px;
+				height: 82px;
+				position: absolute;
+				top: 185px;
+				left: 410px;
+			}
+
+			.middlebar{
+				background:black;
+				width: 200px;
+				height: 10px;
+				position: absolute;
+				top: 350px;
+				left: 315px;
+				border-radius: 10px;
+			}
+
+			.leftpin1{
+				background:black;
+				width: 10px;
+				height: 45px;
+				position: absolute;
+				top: 467px;
+				left: 325px;
+				transform: rotate(15deg);
+			}
+
+			.leftpinhide{
+				background:white;
+				width: 15px;
+				height: 47px;
+				position: absolute;
+				top: 467px;
+				left: 317px;
+				transform: rotate(8deg);
+			}
+
+			.rightpin1{
+				background:black;
+				width: 10px;
+				height: 45px;
+				position: absolute;
+				top: 467px;
+				left: 496px;
+				transform: rotate(-15deg);
+			}
+
+			.rightpinhide{
+				background:white;
+				width: 15px;
+				height: 47px;
+				position: absolute;
+				top: 467px;
+				left: 500px;
+				transform: rotate(-8deg);
+			}
+
+			.leftbar{
+				background:black;
+				width: 25px;
+				height: 250px;
+				position: absolute;
+				top: 230px;
+				left: 350px;
+				border-radius: 5px;
+				transform:rotate(15deg);
+			}
+
+			.leftbarwhite{
+				background:white;
+				width: 1px;
+				height: 235px;
+				position: absolute;
+				top: 235px;
+				left: 354px;
+				border-radius: 8px;
+				transform: rotate(15deg);
+			}
+
+			.rightbar{
+				background:black;
+				width: 25px;
+				height: 250px;
+				position: absolute;
+				top: 230px;
+				left: 455px;
+				border-radius: 5px;
+				transform: rotate(-15deg);
+			}
+
+			.rightbarwhite{
+				background:white;
+				width: 1px;
+				height: 235px;
+				position: absolute;
+				top: 235px;
+				left: 458px;
+				border-radius: 8px;
+				transform: rotate(-15deg);
+			}
+
+			.lefthide{
+				background:white;
+				width: 12px;
+				height: 30px;
+				position: absolute;
+				top: 230px;
+				left: 395px;
+				transform: rotate(-15deg);
+			}
+
+			.righthide{
+				background:white;
+				width: 12px;
+				height: 30px;
+				position: absolute;
+				top: 230px;
+				left: 423px;
+				transform: rotate(15deg);
+			}
+
+			.middlecircle1{
+				background:white;
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				top: 242px;
+				left: 390px;
+				border-radius: 250px;
+			}
+
+			.middlecircle2{
+				background: black;
+				width: 45px;
+				height: 45px;
+				position: absolute;
+				top: 244.25px;
+				left: 392.28px;
+				border-radius: 250px;
+			}
+
+			.middlecircle3{
+				background:white;
+				width: 39px;
+				height: 39px;
+				position: absolute;
+				top: 247.2px;
+				left: 395px;
+				border-radius: 250px;
+			}
+
+			.middlecircle4{
+				background:black;
+				width: 39px;
+				height: 39px;
+				position: absolute;
+				top: 248px;
+				left: 396px;
+				border-radius: 250px;
+			}
+
+			.middlecircle5{
+				background:white;
+				width: 3px;
+				height: 3px;
+				position: absolute;
+				top: 255px;
+				left: 429px;
+				border-radius: 250px;
+			}
+
+			.middlecircle6{
+				background:white;
+				width: 12px;
+				height: 12px;
+				position: absolute;
+				top: 261px;
+				left: 409px;
+				border-radius: 250px;
+			}
+
+			.middlecircle7{
+				background:black;
+				width: 10px;
+				height: 10px;
+				position: absolute;
+				top: 262px;
+				left: 410px;
+				border-radius: 250px;
+			}
+
+			.middlescroll1{
+				background:white;
+				width: 30px;
+				height: 80px;
+				position: absolute;
+				top: 315px;
+				left: 400px;
+				border-radius: 13px;
+			}
+
+			.middlescroll2{
+				background:black;
+				width: 25px;
+				height: 75px;
+				position: absolute;
+				top: 317px;
+				left: 402px;
+				border-radius: 13px;
+			}
+
+			.middlescroll01{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 322px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll02{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 330px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll03{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 338px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll04{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 346px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll05{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 354px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll06{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 362px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll07{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 370px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll08{
+				background:white;
+				width: 17px;
+				height: 5px;
+				position: absolute;
+				top: 378px;
+				left: 406px;
+				border-radius: 6px;
+			}
+
+			.middlescroll09{
+				background:white;
+				width: 15px;
+				height: 3px;
+				position: absolute;
+				top: 386px;
+				left: 406.5px;
+				border-radius: 7px;
+			}
+
+			.leftbottompin{
+				background:white;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 425px;
+				left: 335px;
+				border-radius: 250px;
+			}
+
+			.leftbottompin1{
+				background:black;
+				width: 35px;
+				height: 35px;
+				position: absolute;
+				top: 427px;
+				left: 337px;
+				border-radius: 250px;
+			}
+
+			.leftbottompinwhite{
+				background:white;
+				width: 27px;
+				height: 27px;
+				position: absolute;
+				top: 430px;
+				left: 340px;
+				border-radius: 250px;
+			}
+
+			.leftbottompin2{
+				background:black;
+				width: 28.5px;
+				height: 28.5px;
+				position: absolute;
+				top: 430.5px;
+				left: 340.5px;
+				border-radius: 250px;
+			}
+
+			.leftbottompin3{
+				background:white;
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top: 436px;
+				left: 346px;
+				border-radius: 250px;
+			}
+
+			.leftbottompin4{
+				background:black;
+				width: 7px;
+				height: 7px;
+				position: absolute;
+				top: 441px;
+				left: 351px;
+				border-radius: 250px;
+			}
+
+			.rightbottompin{
+				background:white;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 425px;
+				left: 455px;
+				border-radius: 250px;
+			}
+
+			.rightbottompin1{
+				background:black;
+				width: 35px;
+				height: 35px;
+				position: absolute;
+				top: 427px;
+				left: 457px;
+				border-radius: 250px;
+			}
+
+			.rightbottompinwhite{
+				background:white;
+				width: 27px;
+				height: 27px;
+				position: absolute;
+				top: 430px;
+				left: 460px;
+				border-radius: 250px;
+			}
+
+			.rightbottompin2{
+				background:black;
+				width: 28.5px;
+				height: 28.5px;
+				position: absolute;
+				top: 430.5px;
+				left: 460.5px;
+				border-radius: 250px;
+			}
+
+			.rightbottompin3{
+				background:white;
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top: 436px;
+				left: 466px;
+				border-radius: 250px;
+			}
+
+			.rightbottompin4{
+				background:black;
+				width: 7px;
+				height: 7px;
+				position: absolute;
+				top: 441px;
+				left: 471px;
+				border-radius: 250px;
+			}
+
+
+
+
+
+		</style>
+
+
+
+	</head>
+	<body>
+		<!-- top rectangle shape -->
+		<div class="toprec"></div>
+		<div class="toprec1"></div>
+		<div class="toprec2"></div>
+
+		<!-- vertical bar below the top shape -->
+		<div class="topcenterbar1"></div>
+
+		<!-- the very toppest circle combo -->
+		<div class="topcircle1"></div>
+		<div class="topcirclewhite"></div>
+		<div class="topcircleblack"></div>
+		<div class="topcircle2"></div>
+
+		<!-- vertical bar inside circle -->
+		<div class="topcenterbar2"></div>
+		<div class="middlebar"></div>
+
+		<!-- left and right needles and helpers -->
+		<div class="leftpin1"></div>
+		<div class="leftpinhide"></div>
+		<div class="rightpin1"></div>
+		<div class="rightpinhide"></div>
+
+		<!-- left leg -->
+		<div class="leftbar"></div>
+		<!-- left leg highlight -->
+		<div class="leftbarwhite"></div>
+
+		<!-- right leg -->
+		<div class="rightbar"></div>
+		<!-- right leg highlight -->
+		<div class="rightbarwhite"></div>
+
+		<!-- left leg helper -->
+		<div class="lefthide"></div>
+		<!-- left leg helper -->
+		<div class="righthide"></div>
+
+		<!-- middle rolling circle combo -->
+		<div class="middlecircle1"></div>
+		<div class="middlecircle2"></div>
+		<div class="middlecircle3"></div>
+		<div class="middlecircle4"></div>
+		<div class="middlecircle5"></div>
+		<div class="middlecircle6"></div>
+		<div class="middlecircle7"></div>
+
+
+		<!-- middle scroll circle outside -->
+		<div class="middlescroll1"></div>
+		<div class="middlescroll2"></div>
+
+		<!-- middle scroll circle inside -->
+		<div class="middlescroll01"></div>
+		<div class="middlescroll02"></div>
+		<div class="middlescroll03"></div>
+		<div class="middlescroll04"></div>
+		<div class="middlescroll05"></div>
+		<div class="middlescroll06"></div>
+		<div class="middlescroll07"></div>
+		<div class="middlescroll08"></div>
+		<div class="middlescroll09"></div>
+
+		<!-- left bottom circle combo -->
+		<div class="leftbottompin"></div>
+		<div class="leftbottompin1"></div>
+		<div class="leftbottompinwhite"></div>
+		<div class="leftbottompin2"></div>
+		<div class="leftbottompin3"></div>
+		<div class="leftbottompin4"></div>
+
+		<!-- right bottom circle combo -->
+		<div class="rightbottompin"></div>
+		<div class="rightbottompin1"></div>
+		<div class="rightbottompinwhite"></div>
+		<div class="rightbottompin2"></div>
+		<div class="rightbottompin3"></div>
+		<div class="rightbottompin4"></div>
+
+
+
+
+
+	</body>
+</html>

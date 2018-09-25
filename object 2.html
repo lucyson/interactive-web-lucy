@@ -1,0 +1,747 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>OBJECT 2</title>
+	<style>
+			
+			html, body {
+				margin:0;
+			}
+
+			.topcircle1{
+				background:black;
+				width: 180px;
+				height: 180px;
+				position: absolute;
+				top: 100px;
+				left: 400px;
+				border-radius: 250px;
+			}
+
+			.topcircle2{
+				background:white;
+				width: 165px;
+				height: 165px;
+				position: absolute;
+				top: 108px;
+				left: 408px;
+				border-radius: 250px;
+			}
+
+			.topcircle3{
+				background:black;
+				width: 155px;
+				height: 155px;
+				position: absolute;
+				top: 113px;
+				left: 413px;
+				border-radius: 250px;
+			}
+
+			.topcirclewhite{
+				background:white;
+				width: 142px;
+				height: 142px;
+				position: absolute;
+				top: 118px;
+				left: 417px;
+				border-radius: 250px;
+			}
+
+			.topcircle4{
+				background:black;
+				width: 143px;
+				height: 143px;
+				position: absolute;
+				top: 121px;
+				left: 420px;
+				border-radius: 250px;
+			}
+
+			.topcirclewhite1{
+				background:white;
+				width: 135px;
+				height: 135px;
+				position: absolute;
+				top: 127px;
+				left: 427px;
+				border-radius: 250px;
+			}
+
+			.topcircle5{
+				background:black;
+				width: 140px;
+				height: 140px;
+				position: absolute;
+				top: 120px;
+				left: 423px;
+				border-radius: 250px;
+			}
+
+
+			.outcircle1{
+				background:black;
+				width: 330px;
+				height: 330px;
+				position: absolute;
+				top: 310px;
+				left: 326px;
+				border-radius: 250px;
+			}
+
+			.outcirclewhite1{
+				background: white;
+				width: 315px;
+				height: 315px;
+				position: absolute;
+				top: 318px;
+				left: 334px;
+				border-radius: 250px;
+			}
+
+			.outcircle2{
+				background:black;
+				width: 310px;
+				height: 310px;
+				position: absolute;
+				top: 320px;
+				left: 337px;
+				border-radius: 250px;
+			}
+
+			.outcircle3{
+				background:white;
+				width: 240px;
+				height: 310px;
+				position: absolute;
+				top: 326px;
+				left: 372px;
+				border-radius: 250px;
+			}
+
+			.outcircle4{
+				background:white;
+				width: 200px;
+				height: 310px;
+				position: absolute;
+				top: 326px;
+				left: 392px;
+				border-radius: 250px;
+			}
+
+			.outcirclewhite2{
+				background:black;
+				width: 190px;
+				height: 300px;
+				position: absolute;
+				top: 330px;
+				left: 397px;
+				border-radius: 250px;
+			}
+
+			.outcircle5{
+				background:white;
+				width: 183px;
+				height: 290px;
+				position: absolute;
+				top: 335px;
+				left: 400.5px;
+				border-radius: 250px;
+				opacity: 0.7;
+			}
+
+
+
+			.bottomwater{
+				background:black;
+				width: 163px;
+				height: 110px;
+				position: absolute;
+				top: 507px;
+				left: 410px;
+				border-radius: 150px;
+			}
+
+			.bottomwaterrec{
+				background:black;
+				width: 170px;
+				height: 80px;
+				position: absolute;
+				top: 511px;
+				left: 407px;
+				border-radius:200px;
+			}
+
+			.bottomwaterwhite{
+				background:black;
+				width: 170px;
+				height: 260px;
+				position: absolute;
+				top: 330px;
+				left: 407.5px;
+				border-radius: 250px;
+			}
+
+			.bottomwaterrec1{
+				background:white;
+				width: 170px;
+				height: 250px;
+				position: absolute;
+				top: 345px;
+				left: 407.5px;
+				border-radius: 250px;
+				opacity: 0.7;
+			}
+
+
+			.rec1{
+				background:black;
+				width: 140px;
+				height: 50px;
+				position: absolute;
+				top: 280px;
+				left: 420px;
+				border-radius: 20px;
+				z-index: -1;
+			}
+
+			.recwhite{
+				background:white;
+				width: 133px;
+				height: 44px;
+				position: absolute;
+				top: 283px;
+				left: 423px;
+				border-radius: 15px;
+			}
+
+			.rec2{
+				background:black;
+				width: 129px;
+				height: 40px;
+				position: absolute;
+				top: 285px;
+				left: 425px;
+				border-radius: 15px;
+			}
+
+			.recsmall1{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 426px;
+				border-radius: 3px;
+			}
+
+			.recsmall2{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 441px;
+				border-radius: 3px;
+			}
+
+			.recsmall3{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 456px;
+				border-radius: 3px;
+			}
+
+			.recsmall4{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 471px;
+				border-radius: 3px;
+			}
+
+			.recsmall5{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 486px;
+				border-radius: 3px;
+			}
+
+			.recsmall6{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 501px;
+				border-radius: 3px;
+			}
+
+			.recsmall7{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 516px;
+				border-radius: 3px;
+			}
+
+			.recsmall8{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 531px;
+				border-radius: 3px;
+			}
+
+			.recsmall9{
+				background:white;
+				width: 8px;
+				height: 13px;
+				position: absolute;
+				top: 288px;
+				left: 546px;
+				border-radius: 2px;
+			}
+
+
+
+			.recsmall10{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 426px;
+				border-radius: 3px;
+			}
+
+			.recsmall11{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 441px;
+				border-radius: 3px;
+			}
+
+			.recsmall12{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 456px;
+				border-radius: 3px;
+			}
+
+			.recsmall13{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 471px;
+				border-radius: 3px;
+			}
+
+			.recsmall14{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 486px;
+				border-radius: 3px;
+			}
+
+			.recsmall15{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 501px;
+				border-radius: 3px;
+			}
+
+			.recsmall16{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 516px;
+				border-radius: 3px;
+			}
+
+			.recsmall17{
+				background:white;
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 531px;
+				border-radius: 3px;
+			}
+
+			.recsmall18{
+				background:white;
+				width: 8px;
+				height: 13px;
+				position: absolute;
+				top: 310px;
+				left: 546px;
+				border-radius: 2px;
+			}
+
+
+			.recline{
+				background:white;
+				width: 129px;
+				height: 4px;
+				position: absolute;
+				top: 303.5px;
+				left: 426px;
+				border-radius: 2px;
+			}
+
+
+			.recsmall01{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 428px;
+				border-radius: 2px;
+			}
+
+			.recsmall02{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 443px;
+				border-radius: 2px;
+			}
+
+			.recsmall03{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 458px;
+				border-radius: 2px;
+			}
+
+			.recsmall04{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 473px;
+				border-radius: 2px;
+			}
+
+			.recsmall05{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 488px;
+				border-radius: 2px;
+			}
+
+			.recsmall06{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 503px;
+				border-radius: 2px;
+			}
+
+			.recsmall07{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 518px;
+				border-radius: 2px;
+			}
+
+			.recsmall08{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 533px;
+				border-radius: 2px;
+			}
+
+			.recsmall09{
+				background:black;
+				width: 6px;
+				height: 11px;
+				position: absolute;
+				top: 289px;
+				left: 548px;
+				border-radius: 1px;
+			}
+
+
+
+			.recsmall010{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 428px;
+				border-radius: 2px;
+			}
+
+			.recsmall011{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 443px;
+				border-radius: 2px;
+			}
+
+			.recsmall012{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 458px;
+				border-radius: 2px;
+			}
+
+			.recsmall013{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 473px;
+				border-radius: 2px;
+			}
+
+			.recsmall014{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 488px;
+				border-radius: 2px;
+			}
+
+			.recsmall015{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 503px;
+				border-radius: 2px;
+			}
+
+			.recsmall016{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 518px;
+				border-radius: 2px;
+			}
+
+			.recsmall017{
+				background:black;
+				width: 10px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 533px;
+				border-radius: 2px;
+			}
+
+			.recsmall018{
+				background:black;
+				width: 6px;
+				height: 11px;
+				position: absolute;
+				top: 311px;
+				left: 548px;
+				border-radius: 1px;
+			}
+
+			.recline1{
+				background:black;
+				width: 129px;
+				height: 2px;
+				position: absolute;
+				top: 304.5px;
+				left: 426px;
+				border-radius: 2px;
+			}
+
+
+			.hose{
+				background:white;
+				opacity: 0.3;
+				width: 4px;
+				height: 260px;
+				position: absolute;
+				top: 330px;
+				left: 490px;
+				border-radius: 7px;
+				
+			}
+
+
+			.bvlgari{
+				margin: 10px;
+				font-size: 1em;
+				color:black;
+				position: absolute;
+				top: 430px;
+				left: 433px;
+			}
+
+			.rosegoldea{
+				margin: 10px;
+				font-size: 1em;
+				letter-spacing: 3px;
+				color:black;
+				position: absolute;
+				top: 485px;
+				left: 413px;
+			}
+			
+
+
+
+		</style>
+
+</head>
+<body>
+	<!-- lid -->
+	<div class="topcircle1"></div>
+	<div class="topcircle2"></div>
+	<div class="topcircle3"></div>
+	<div class="topcirclewhite"></div>
+	<div class="topcircle4"></div>
+	<div class="topcirclewhite1"></div>
+	<div class="topcircle5"></div>
+
+	<!-- outline -->
+	<div class="outcircle1"></div>
+	<div class="outcirclewhite1"></div>
+	<div class="outcircle2"></div>
+	<div class="outcircle3"></div>
+
+	<!-- inside -->
+	<div class="outcircle4"></div>
+	<div class="outcirclewhite2"></div>
+	<div class="outcircle5"></div>
+
+	<!-- inside perfume -->
+	<div class="bottomwater"></div>
+	<div class="bottomwaterrec"></div>
+	<div class="bottomwaterwhite"></div>
+	<div class="bottomwaterrec1"></div>
+
+	<!-- nexck -->
+	<div class="rec1"></div>
+	<div class="recwhite"></div>
+	<div class="rec2"></div>
+
+	<div class="recsmall1"></div>
+	<div class="recsmall2"></div>
+	<div class="recsmall3"></div>
+	<div class="recsmall4"></div>
+	<div class="recsmall5"></div>
+	<div class="recsmall6"></div>
+	<div class="recsmall7"></div>
+	<div class="recsmall8"></div>
+	<div class="recsmall9"></div>
+
+	<div class="recsmall10"></div>
+	<div class="recsmall11"></div>
+	<div class="recsmall12"></div>
+	<div class="recsmall13"></div>
+	<div class="recsmall14"></div>
+	<div class="recsmall15"></div>
+	<div class="recsmall16"></div>
+	<div class="recsmall17"></div>
+	<div class="recsmall18"></div>
+
+	<div class="recline"></div>
+
+	<div class="recsmall01"></div>
+	<div class="recsmall02"></div>
+	<div class="recsmall03"></div>
+	<div class="recsmall04"></div>
+	<div class="recsmall05"></div>
+	<div class="recsmall06"></div>
+	<div class="recsmall07"></div>
+	<div class="recsmall08"></div>
+	<div class="recsmall09"></div>
+
+
+	<div class="recsmall010"></div>
+	<div class="recsmall011"></div>
+	<div class="recsmall012"></div>
+	<div class="recsmall013"></div>
+	<div class="recsmall014"></div>
+	<div class="recsmall015"></div>
+	<div class="recsmall016"></div>
+	<div class="recsmall017"></div>
+	<div class="recsmall018"></div>
+
+	<div class="recline1"></div>
+
+
+	<!-- hose -->
+	<div class="hose"></div>
+
+	<!-- copy -->
+	<div class="bvlgari">
+		B V L G A R I
+	</div>	
+
+	<div class="rosegoldea">
+		ROSE GOLDEA
+	</div>
+
+
+
+</body>
+</html>
