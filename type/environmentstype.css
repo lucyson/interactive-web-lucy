@@ -1,0 +1,441 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #358D00;
+	width: 1000px;
+	height: 2400px;
+	position: absolute;
+	}
+
+
+/*background colours*/
+.back1 {
+	height: 800px;
+	width: 1424px;
+	background:#005056;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/*backgroundvideo*/
+.firstpage {
+	position: fixed;
+	top: 0px;
+	left: 450px;
+}
+
+#video1 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: 500px;
+	height: 500px;
+	z-index: -1;
+	overflow: hidden;
+}
+.back2 {
+	height: 800px;
+	width: 1424px;
+	background:red;
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	opacity: 0.4;
+}
+
+.back3 {
+	height: 800px;
+	width: 1424px;
+	background:green;
+	position: absolute;
+	top: 1600px;
+	left: 0px;
+	opacity: 0.5;
+}
+
+
+/*title*/
+.title1back {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 80px;
+	position: fixed;
+	width: 800px;
+	left: 244px;
+	top: 46px;
+}
+
+.title1 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: orange;
+	font-size: 80px;
+	position: fixed;
+	width: 800px;
+	left: 240px;
+	top: 40px;
+}
+
+.title2 {
+	font-family: 'K2D', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	line-height: 45px;
+	font-size: 35px;
+	letter-spacing: 3px;
+	color: #EEE8CF;
+	position: absolute;
+	left: 400px;
+	top: 435px;
+}
+
+/*caption*/
+a.caption {
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: right;
+	line-height: 20px;
+	font-size: 10px;
+	color: orange;
+	position: fixed;
+	left: 463px;
+	top: 390px;
+}
+
+a.caption:link {
+	text-decoration: none;
+}
+
+a.caption:visited {
+	text-decoration: none;
+}
+
+a.caption:hover, a.caption:active {
+	text-decoration: none;
+	background:white;
+}
+
+/*date*/
+.timebox {
+	height: 400px;
+	width: 150px;
+	background: orange;
+	position: fixed;
+	top: 0px;
+	left: 1230px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.Monday {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	left: 1243px;
+	top: 74px;
+}
+
+.October {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	line-height: 35px;
+	color: white;
+	position: absolute;
+	left: 1243px;
+	top: 120px;
+}
+
+.year {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	left: 1265px;
+	top: 192px;
+}
+
+.time {
+	font-family: 'K2D', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	line-height: 20px;
+	color: #005056;
+	position: absolute;
+	left: 1249px;
+	top: 0px;
+}
+
+.divide {
+	height: 5px;
+	width: 145px;
+	background: #005056;
+	position: absolute;
+	top: 103px;
+	left: 1232px;
+}
+
+.locationbox {
+	height: 110px;
+	width: 130px;
+	background: #005056;
+	position: fixed;
+	top: 280px;
+	left: 1240px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+.hall {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: orange;
+	position: fixed;
+	left: 1260px;
+	top: 272px;
+}
+
+.hall2 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: orange;
+	position: fixed;
+	left: 1290px;
+	top: 292px;
+}
+
+.number {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	color: orange;
+	position: fixed;
+	left: 1270px;
+	top: 314px;
+}
+
+.king {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	color: orange;
+	position: fixed;
+	left: 1290px;
+	top: 314px;
+}
+
+.college {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: orange;
+	position: fixed;
+	left: 1254px;
+	top: 340px;
+}
+
+.circle {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: orange;
+	position: fixed;
+	left: 1314px;
+	top: 340px;
+}
+
+/*title descrption*/
+.des1 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 22px;
+	line-height: 30px;
+	color: orange;
+	position: relative;
+	top: 600px;
+	left: 200px;
+}
+
+
+/*body*/
+.george {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+	color: #EEE8CF;
+	position: absolute;
+	top: 1230px;
+	left: 515px;
+}
+
+.des2 {
+	font-family: 'K2D', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #005056;
+	position: absolute;
+	width: 130px;
+	height: 50px;
+	top: 885px;
+	left: 1241px;
+}
+
+.des3 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	line-height: 18px;
+	font-size: 16px;
+	text-transform: lowercase;
+	color: #EEE8CF;
+	position: absolute;
+	width: 130px;
+	height: 300px;
+	top: 968px;
+	left: 1240px;
+}
+
+.des4 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	line-height: 25px;
+	font-size: 15px;
+	color: orange;
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	top: 1350px;
+	left: 400px;
+}
+a.naomi:link {
+	text-decoration: none;
+}
+
+a.naomi:visited {
+	text-decoration: none;
+}
+
+a.naomi:hover, a.naomi:active {
+	text-decoration: none;
+	background: #005056;
+}
+
+
+.daniels {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+	color: #EEE8CF;
+	position: absolute;
+	top: 2033px;
+	left: 515px;
+}
+
+.des5 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	line-height: 25px;
+	font-size: 15px;
+	color: orange;
+	position: absolute;
+	width: 500px;
+	height: 50px;
+	top: 2163px;
+	left: 448px;
+}
+
+
+/*date2*/
+.Monday2 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	left: 1243px;
+	top: 1674px;
+}
+
+.October172 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	line-height: 35px;
+	color: white;
+	position: absolute;
+	left: 1243px;
+	top: 1720px;
+}
+
+.year2 {
+	font-family: 'K2D', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	left: 1265px;
+	top: 1792px;
+}
+
+.time2 {
+	font-family: 'K2D', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	line-height: 20px;
+	color: #005056;
+	position: absolute;
+	left: 1249px;
+	top: 1600px;
+}
+
+.divide2 {
+	height: 5px;
+	width: 145px;
+	background: #005056;
+	position: absolute;
+	top: 1705px;
+	left: 1232px;
+}
+
