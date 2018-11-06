@@ -39,7 +39,7 @@ overflow: hidden;
   position: absolute;
   top: 1650px;
   left: 20px;
-  font-family: 'PoorStory-Regular', sans-serif;
+  font-family: 'Poor Story', cursive;
 }
 
 
@@ -85,7 +85,7 @@ overflow: hidden;
 /* effect welcome */
 
 #title {
-    font-family: 'SpicyRice-Regular', sans-serif;
+    font-family: 'Spicy Rice', cursive;
     font-size: 300px;
     line-height: 300px;
 }
@@ -134,7 +134,7 @@ overflow: hidden;
 /*here1topwindow*/
 
 #here {
-  font-family: 'PoorStory-Regular', sans-serif;
+  font-family: 'Poor Story', cursive;
   color: red;
   text-transform: uppercase;
   font-weight: bold;
