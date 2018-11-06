@@ -8,13 +8,16 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 
+img {
+  width: 100%;
+}
 
 
 #house {
 	position: absolute;
 	top: 0;
 	left: 0;
-	max-width: 1000px;
+  width: 100%;
 	height: auto;
   margin: auto;
 }
@@ -29,57 +32,17 @@ top: 0px;
 left: 0px;
 min-width: 100%;
 min-height: 100%;
-width: auto;
 height: auto;
 overflow: hidden;
 }
 
 .reference {
   color:red;
-  position: absolute;
-  top: 1650px;
+  position: fixed;
+  top: 95%;
   left: 20px;
   font-family: 'Poor Story', cursive;
 }
-
-
-
-#image1 {
-	position: absolute;
-    top: 0;
-    left: 0;    
-    max-width: 1000px;
-    height: auto;
-    margin: auto;
-}
-
-#image2 {
-	position: absolute;
-    top: 0;
-    left: 0;    
-    max-width: 1000px;
-    height: auto;
-    margin: auto;
-}
-
-#image3 {
-	position: absolute;
-    top: 0;
-    left: 0;    
-    max-width: 1000px;
-    height: auto;
-    margin: auto;
-}
-
-#image4 {
-	position: absolute;
-    top: 0;
-    left: 0;    
-    max-width: 1000px;
-    height: auto;
-    margin: auto;
-}
-
 
 
 /* effect welcome */
@@ -88,15 +51,15 @@ overflow: hidden;
     font-family: 'Spicy Rice', cursive;
     font-size: 300px;
     line-height: 300px;
-}
+    }
 
 .hover14{
   position: absolute;
   display: inline-block;
   color: white;
   text-align: center;
-  top: 100px;
-  left: 180px;
+  top: 20%;
+  left: 10%;
 }
 
 .hover14:after{
@@ -144,8 +107,8 @@ overflow: hidden;
 
 .here1 {
     position: absolute;
-    top: 320px;
-    left: 695px;
+    top: 50%;
+    left: 48%;
 }
 
 span {
@@ -197,8 +160,8 @@ span.light {
 /*here2toplight*/
 .here2 {
     position: absolute;
-    top: 610px;
-    left: 695px;
+    top: 94%;
+    left: 48%;
 }
 
 span {
@@ -248,8 +211,8 @@ span.light {
 
 .here3 {
     position: absolute;
-    top: 990px;
-    left: 695px;
+    top: 150%;
+    left: 48%;
 }
 
 span {
@@ -299,8 +262,8 @@ span.light {
 
 .here4 {
     position: absolute;
-    top: 990px;
-    left: 450px;
+    top: 150%;
+    left: 30%;
 }
 
 span {
@@ -350,8 +313,8 @@ span.light {
 
 .here5 {
     position: absolute;
-    top: 1520px;
-    left: 859px;
+    top: 225%;
+    left: 60%;
 }
 
 span {
@@ -402,7 +365,7 @@ span.light {
   top: 0;
   left: 0;
   
-  max-width: 1000px;
+  width: 100%;
   height: auto;
   margin: auto;
 
@@ -415,7 +378,7 @@ span.light {
   top: 0;
   left: 0;
   
-  max-width: 1000px;
+  width: 100%;
   height: auto;
   margin: auto;
 
@@ -428,7 +391,7 @@ span.light {
   top: 0;
   left: 0;
   
-  max-width: 1000px;
+  width: 100%;
   height: auto;
   margin: auto;
 
@@ -441,7 +404,7 @@ span.light {
   top: 0;
   left: 0;
   
-  max-width: 1000px;
+  width: 100%;
   height: auto;
   margin: auto;
 
