@@ -9,6 +9,7 @@ html, body {
 }
 
 
+
 #house {
 	position: absolute;
 	top: 0;
@@ -31,6 +32,14 @@ min-height: 100%;
 width: auto;
 height: auto;
 overflow: hidden;
+}
+
+.reference {
+  color:red;
+  position: absolute;
+  top: 1650px;
+  left: 20px;
+  font-family: 'PoorStory-Regular', sans-serif;
 }
 
 
@@ -76,8 +85,9 @@ overflow: hidden;
 /* effect welcome */
 
 #title {
-    font-family: 'youmurdererbb', sans-serif;
-    font-size: 25em;
+    font-family: 'SpicyRice-Regular', sans-serif;
+    font-size: 300px;
+    line-height: 300px;
 }
 
 .hover14{
@@ -124,7 +134,7 @@ overflow: hidden;
 /*here1topwindow*/
 
 #here {
-  font-family: 'IndieFlower', sans-serif;
+  font-family: 'PoorStory-Regular', sans-serif;
   color: red;
   text-transform: uppercase;
   font-weight: bold;
