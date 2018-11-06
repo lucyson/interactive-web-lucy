@@ -1,0 +1,431 @@
+html, body {
+   /* padding: 0;
+    margin: 0;
+    border: 0;*/
+    overflow-x: none;
+    background-color: black;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+  width: 100%;
+}
+
+
+#house {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 100%;
+	height: auto;
+  margin: auto;
+}
+
+figure video {
+	mix-blend-mode: overlay;
+}
+
+video {
+position: fixed;
+top: 0px;
+left: 0px;
+min-width: 100%;
+min-height: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.reference {
+  color:red;
+  position: fixed;
+  top: 95%;
+  left: 20px;
+  font-family: 'Poor Story', cursive;
+}
+
+
+/* effect welcome */
+
+#title {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 300px;
+    line-height: 300px;
+    }
+
+.hover14{
+  position: absolute;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  top: 20%;
+  left: 10%;
+}
+
+.hover14:after{
+  content: '' attr(data-hover-label) '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+
+  opacity: 0;
+  transform: scale(1.2);
+  transition: transform .2s ease-out, opacity .2s ease-out; 
+}
+
+.hover14__label{
+  display: inline-block;
+  transition: transform .2s cubic-bezier(1, .04, 0, 1.18) .25s, opacity .15s cubic-bezier(1, .04, 0, 1.18) .25s;
+}
+
+.hover14:hover:after, .hover14:focus:after{
+  opacity: 1;  
+  transform: scale(1);
+  transition-duration: .2s;
+  transition-delay: .15s;
+}
+
+.hover14:hover .hover14__label, .hover14:focus .hover14__label{
+  opacity: 0;
+  transform: scale(0);
+  transition-duration: .2s;
+  transition-delay: 0s;
+}
+
+
+/*here1topwindow*/
+
+#here {
+  font-family: 'Poor Story', cursive;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+}
+
+.here1 {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+/*  position: absolute;
+   top: 100px;
+  left: 200px;*/
+}
+
+span.light {
+  position: absolute;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.50;
+  }
+}
+
+
+
+
+/*here2toplight*/
+.here2 {
+    position: absolute;
+    top: 94%;
+    left: 48%;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+/*  position: absolute;
+   top: 100px;
+  left: 200px;*/
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.50;
+  }
+}
+
+
+/*here3door*/
+
+.here3 {
+    position: absolute;
+    top: 150%;
+    left: 48%;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+/*  position: absolute;
+   top: 100px;
+  left: 200px;*/
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.50;
+  }
+}
+
+
+/*here4leftwindow*/
+
+.here4 {
+    position: absolute;
+    top: 150%;
+    left: 30%;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+/*  position: absolute;
+   top: 100px;
+  left: 200px;*/
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.50;
+  }
+}
+
+
+/*here5tombstone*/
+
+.here5 {
+    position: absolute;
+    top: 225%;
+    left: 60%;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+/*  position: absolute;
+   top: 100px;
+  left: 200px;*/
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.50;
+  }
+}
+
+#sur1 {
+  position:absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  opacity: 0;
+}
+
+
+#sur2 {
+  position:absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  opacity: 0;
+}
+
+
+#sur3 {
+  position:absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  opacity: 0;
+}
+
+
+#sur4 {
+  position:absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  opacity: 0;
+}
+
+
+/*//memo//*/
+/*
+#sur1 {
+  opacity: 0;
+}
+
+#sur2 {
+  opacity: 0;
+}
+#sur3 {
+  opacity: 0;
+}
+#sur4 {
+  opacity: 0;
+}
+
+*/
